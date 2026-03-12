@@ -216,14 +216,14 @@ export default function TascaDentroPage() {
             transition={{ duration: 0.5 }}
             className="mb-8 inline-flex items-center gap-2 rounded-full bg-black/30 px-5 py-2 backdrop-blur-md shadow-sm"
           >
-            <Flame className="h-4 w-4 text-[#2B4C7E]" />
+            <Flame className="h-4 w-4 text-white" />
             <span className="text-sm font-medium text-white/90">
               Gastro Club &middot; Buarcos, Figueira da Foz
             </span>
           </motion.div>
 
           {/* Headline */}
-          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-white md:text-7xl lg:text-8xl">
+          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-[#2B4C7E] md:text-7xl lg:text-8xl">
             <TextReveal text="Tás-cá Dentro" />
           </h1>
 
@@ -235,7 +235,7 @@ export default function TascaDentroPage() {
             className="mx-auto mt-6 max-w-xl text-xl font-light leading-relaxed text-white/70 md:text-2xl"
           >
             Onde a tradição portuguesa encontra a cozinha de autor.
-            <span className="block mt-2 text-[#2B4C7E] text-lg">
+            <span className="block mt-2 text-white text-lg">
               Sabores da costa, alma de gastro club.
             </span>
           </motion.p>
