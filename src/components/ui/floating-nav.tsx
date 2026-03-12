@@ -34,8 +34,8 @@ export function FloatingNav({ brand, items, ctaLabel, ctaHref, brandColor = "#25
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         scrolled
-          ? "bg-white/80 backdrop-blur-xl shadow-sm border-b border-neutral-100"
-          : "bg-transparent"
+          ? "bg-white/90 backdrop-blur-xl shadow-sm border-b border-neutral-100"
+          : "bg-white/80 backdrop-blur-xl border-b border-neutral-100/50"
       )}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
