@@ -223,7 +223,7 @@ export default function TascaDentroPage() {
           </motion.div>
 
           {/* Headline */}
-          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-[#2B4C7E] md:text-7xl lg:text-8xl">
+          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-[#4A7FB5] md:text-7xl lg:text-8xl">
             <TextReveal text="Tás-cá Dentro" />
           </h1>
 
