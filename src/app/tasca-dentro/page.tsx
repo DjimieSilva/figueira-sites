@@ -197,7 +197,7 @@ export default function TascaDentroPage() {
           <img
             src="/tasca-hero.png"
             alt="Interior do Tás-cá Dentro"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-bottom"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#2C1810]/75 via-[#2C1810]/65 to-[#FFFBF5]" />
         </div>
@@ -223,7 +223,7 @@ export default function TascaDentroPage() {
           </motion.div>
 
           {/* Headline */}
-          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-[#4A7FB5] md:text-7xl lg:text-8xl">
+          <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-white md:text-7xl lg:text-8xl">
             <TextReveal text="Tás-cá Dentro" />
           </h1>
 
