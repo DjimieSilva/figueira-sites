@@ -195,8 +195,8 @@ export default function TascaDentroPage() {
         {/* Background image with LIGHT overlay */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80"
-            alt=""
+            src="/tasca-hero.png"
+            alt="Interior do Tás-cá Dentro"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#2C1810]/75 via-[#2C1810]/65 to-[#FFFBF5]" />
